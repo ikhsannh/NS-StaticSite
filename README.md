@@ -11,14 +11,11 @@ I've updated the project overview below to annotate which parts are up to date, 
 ## Introduction
 
 - I kept it [here](https://nashkispace.vercel.app/)
-- Each project is in its own branch, such as this one, which is in the landing-page branch, and the product list project is in the branch [product-list](https://gitlab.com/nashkispace/NS-LandingPage/-/tree/product-list).
-- [**🎥 Watch Now (26:07)**](https://www.youtube.com/watch?v=uQeidE2LA1s&list=PL6bwFJ82M6FXjyBTVi6WSCWin8q_g_8RR)
-- 🟢 Here are my [latest project](https://leerob.io/blog/nextjs-gatsby-create-react-app) on the framework comparison
+- Each project is in its own branch, such as this one, which is in the landing-page branch, and the product list project is in the branch [product-list](https://github.com/nashkispace/NS-StaticSite/tree/main).
+- 🟢 Here are my [latest project]
 - 🟡 OnProgress
 
-## Landing Page for Renewable Energy Company 🟢
-
-I taught Class Components in 2019 for those still in the process of converting to React Hooks. In 2021, it's now standard to use React Hooks for all projects and I would recommend starting there.
+## Landing Page for Team Renewable Energy 🟢
 
 - [**🌐 Live Preview**](https://nashkispace.vercel.app/)
 - [**👀 View Code**](https://github.com/nashkispace/NS-LandingPage/tree/landing-page)
