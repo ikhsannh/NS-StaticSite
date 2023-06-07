@@ -1,34 +1,41 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import Navbar from "@/components/0/Navbar";
+import Footer from "@/components/0/Footer";
 import { motion } from "framer-motion";
-import { introLeftAnimation, introRightAnimation, videoAnimation, textAnimation } from "@/utils/animations";
+import { introLeftAnimation, introRightAnimation, videoAnimation, textAnimation } from "@/utils/0/animations";
 
 const Home: NextPage = () => {
     return (
         <motion.div
-            className="min-h-screen px-40 bg-darkGreen text-cream"
+            className="min-h-screen px-4 md:px-8 lg:px-16 bg-darkGreen text-cream"
             initial="initial"
             animate="animate"
         >
         <Head>
             <title>Home | Team RE</title>
         </Head>
+
         <Navbar />
-        <main className="grid grid-cols-[3fr_1fr] py-2">
-            <h1 className="text-6xl font-bold w-[40rem] leading-[90%] tracking">
+
+
+        <main className="grid md:grid-cols-[3fr_1fr] py-2">
+            <h1 className="text-4xl md:text-6xl font-bold w-full md:w-[40rem] leading-[90%] tracking">
            <AnimatedWords title="Generate electricity from the sun's." />
             </h1>
-            <motion.div className="text-base leading-[150%] self-end" variants={introRightAnimation}>
+            <motion.div className="text-base leading-[150%] self-end hidden md:block" variants={introRightAnimation}>
             We offer a clean, sustainable, and reliable source of electricity that
             can help reduce our dependence on fossil fuels.
             </motion.div>
         </main>
-        <motion.video className="rounded-lg" loop autoPlay muted playsInline variants={videoAnimation}>
+        <motion.video className="w-full rounded-lg" loop autoPlay muted playsInline variants={videoAnimation}>
+            {/* <source src='/assets/0/re-energy.mp4' type='video/mp4' />  */}
             <source src={'https://auctions-live.s3.ap-southeast-2.amazonaws.com/re-energy.mp4'} type="video/mp4" />
         </motion.video>
       
+
+
+
         <Footer />
         </motion.div>
     );
