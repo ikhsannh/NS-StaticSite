@@ -1,6 +1,6 @@
 # Building Static Site (Landing Page, Product List and so on) using Next.js
 
-Hey, everyone! 👋 [I'm Ikhsan](https://nashkispace.gitlab.io/), Perform Indipendent Web Developer. This project was originally released in 2023.
+Hey, everyone! 👋 [I'm Ikhsan](https://ikhsannh.com/), Perform Indipendent Web Developer. This project was originally released in 2023.
 
 I've updated the project overview below to annotate which parts are up to date, which have changed, and which have done. In my opinion, this is the ideal way to _Learn_ and _evolve_. The project will serve as a reference to a point in time. I'll continue to update the project as I learn more.
 
